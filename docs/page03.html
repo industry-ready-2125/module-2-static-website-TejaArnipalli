@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgottten Password | Can't Log In | Facebook</title>
+<style>
+    body {
+            margin: 0;
+            padding: 0px 10px;
+            height: 100vh;
+            box-sizing: border-box;
+            background-color: rgb(230, 230, 235);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            font-family: Helvetica, Arial, sans-serif;
+    }
+
+    a {
+            text-decoration: none;
+    }
+    a:hover {
+            text-decoration: underline;
+    }
+
+    .head-con {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        background-color: white;
+        align-items: center;
+    }
+    .head-con button {
+        border : none;
+        border-radius: 6px;
+        background-color: #1877f2;
+        color : white;
+        font-family: inherit;
+        font-weight: 700;
+        padding: 10px 5px;
+        width: 120px;
+    }
+    h1{
+        color :#1877f2
+    }
+    .head-con input {
+        padding: 10px;
+    }
+
+    .second-con {
+        background-color: white;
+        padding: 10px;
+    }
+    .second-first input {
+        padding: 10px;
+        width: 500px;
+    }
+    .second-last {
+        margin: 10px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+</style>
+
+</head>
+<body>
+    <div class="head-con">
+        <div>
+            <h1>facebook</h1>
+        </div>
+        <div class="top-right">
+            <input type="text" name="username" id="username" placeholder="Email or phone">
+            <input type="password" id="password" name="password" placeholder="Password">
+            <button>Log in</button>
+            <a href="google.com">Forgotten account?</a>
+        </div>
+    </div>
+
+    <div class="tail-con">
+
+        <div class="second-con">
+
+            <div class="second-first">
+                <h2>Find Your Account</h2>
+                <p>Please enter your email address or mobile number to search for your account.</p>
+                <input type="username" name="username" id="username" placeholder="Email address or mobile number" required>
+
+                <div class="second-last">
+                    <button style="width: 100px; color: black; background-color: rgb(230, 230, 235); border: none; margin: 5px;">cancel</button>
+                    <button style="color: white; width: 100px; background-color: #1877f2; border: none; margin: 5px;">search</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>
