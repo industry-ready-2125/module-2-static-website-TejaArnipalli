@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up for Facebook | Facebook</title>
+    <style>
+        body {
+            margin: 0;
+            padding-top: 80px;
+            height: 100vh;
+            box-sizing: border-box;
+            background-color: rgb(230, 230, 235);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-family: Helvetica, Arial, sans-serif;
+
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .main-con {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 400px;
+            background-color: white;
+            border-radius: 6px;
+        }
+
+        .head-con {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 10px;
+        }
+
+        .name-con {
+            display: flex;
+            justify-content: space-around;
+            width: 290px;
+        }
+
+        .name-con input {
+            width: 120px;
+            padding: 8px;
+        }
+
+        .mail-con {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 10px 0px;
+            width: 350px;
+        }
+        .mail-con input {
+            width: 278px;
+            padding: 10px 2px;
+            margin: 5px;
+        }
+
+        .dob-con {
+            width: 300px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .dob-con select {
+            padding: 10px 35px 10px 5px;
+            border-radius: 6px;
+            height: 35px;
+        }
+
+        .gender-con {
+            display: flex;
+            justify-content: space-between;
+            margin: 10px;
+            width: 300px;
+        }
+
+        .gender-con .radio-inst {
+            border: 2px solid grey;
+            padding: 5px;
+            height: 20px;
+            border-radius: 6px;
+        }
+
+        .para-con {
+            width: 300px;
+            color: grey;
+        }
+
+        .last-con {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 10px;
+        }
+
+        h1 {
+            color: #1877f2;
+        }
+
+        button {
+            border : none;
+            border-radius: 6px;
+            background-color: #00a400;
+            color : white;
+            font-family: inherit;
+            font-weight: 700;
+            padding: 10px;
+            padding: 5px;
+            width: 120px;
+            margin: 5px 5px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1 >facebook</h1>
+    <div class="main-con">
+
+        <div class="head-con">
+            <h2>Create a new account</h2>
+            <p>It's quick and easy</p>
+        </div>
+
+        <div class="name-con">
+            <input type="text" name="first-name" id="first-name" placeholder="First name" required>
+            <input type="text" name="surname" id="surname" placeholder="Surname" required>
+        </div>
+
+        <div class="mail-con">
+            <input type="text" name="username" id="username" placeholder="Mobile number or email address" required>
+            <input type="password" name="password" id="password" placeholder="New password">
+        </div>
+
+        <div class="dob-con">
+            <select name="day" id="daay">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+            </select>
+            <select name="month" id="month">
+                <option value="january">Jan</option>
+                <option value="februaru">Feb</option>
+                <option value="march">Mar</option>
+                <option value="april">Apr</option>
+                <option value="may">May</option>
+                <option value="june">Jun</option>
+                <option value="july">Jul</option>
+                <option value="august">Aug</option>
+                <option value="september">Sept</option>
+                <option value="october">Oct</option>
+                <option value="november">Nov</option>
+                <option value="december">Dec</option>
+            </select>
+            <select name="year" id="year">
+                <option value="2001">2001</option>
+                <option value="2002">2001</option>
+                <option value="2003">2001</option>
+                <option value="2004">2001</option>
+                <option value="2005">2001</option>
+                <option value="2006">2001</option>
+                <option value="2007">2001</option>
+                <option value="2008">2001</option>
+                <option value="2009">2001</option>
+                <option value="2010">2001</option>
+                <option value="2011">2001</option>
+                <option value="2012">2001</option>
+                <option value="2013">2001</option>
+                <option value="2014">2001</option>
+                <option value="2015">2001</option>
+                <option value="2016">2001</option>
+                <option value="2017">2001</option>
+                <option value="2018">2001</option>
+                <option value="2019">2001</option>
+                <option value="2020">2001</option>
+                <option value="2021">2001</option>
+                <option value="2022">2001</option>
+                <option value="2023">2001</option>
+                <option value="2024">2001</option>
+            </select>
+        </div>
+
+        <div class="gender-con">
+            <div class="radio-inst">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" value="male" id="male">
+            </div>
+
+            <div class="radio-inst">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" value="female" id="female">
+            </div>
+
+            <div class="radio-inst">
+                <label for="custom">Custom</label>
+                <input type="radio" name="gender" value="custom" id="custom">
+            </div>
+
+        </div>
+
+        <div class="para-con">
+            <p style="font-size: 10px;">People who use our service may have uploaded your contact information to Facebook. Learn more.</p>
+            <p style="font-size: 10px;">By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive SMS notifications from us and can opt out at any time.</p>
+        </div>
+
+        <div class="last-con">
+            <button>Sign up</button>
+            <a href="http://127.0.0.1:3000/index01.html">Already have an account?</a>
+        </div>
+
+    </div>
+</body>
+</html>
